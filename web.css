@@ -29,6 +29,9 @@ body{
     color: #fffcf6;
     border: none;
     padding: 10px 20px;
+    width: 280px;
+    font-size: 120%;
+    font-family: 'Sofia Sans', serif;
     margin-top: 15px;
     border-radius: 8px;
     cursor: pointer;
@@ -40,26 +43,15 @@ body{
 .run_btn {
     background-color: #930500;
     color: #fffcf6;
+    font-size: 120%;
+    font-family: 'Sofia Sans', serif;
     border: none;
     padding: 10px 20px;
     margin-top: 15px;
+    margin-left: 2px;
     border-radius: 8px;
     cursor: pointer;
 }
 .run_btn:hover {
     background-color: #ba221c;
-}
-
-
-
-input[type="checkbox"]{
-    appearance: none;
-    -webkit-appearance: none;
-    accent-color: #95BBEA;
-    border-color: transparent;
-    text-decoration: none;
-    color: #fff8e7;
-    text-align: center;
-    border-radius: 20%;
-    size: 25%;
 }
