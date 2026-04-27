@@ -6,38 +6,43 @@
 body{
     width: 1200px;
     margin: auto;
-    background-color: #fffdf9;
+    background-color: #fff8e7;
 }
 
 .title{
     font-size: 240%;
-    color: #78020E;
+    color: #930500;
     text-align: left;
+    font-family: 'Sofia Sans', serif;
 }
 
 .overview{
     font-size: 120%;
-    color: #78020E;
+    color: #930500;
     text-align: left;
+    font-family: 'Sofia Sans', serif;
 }
 
-.button{
+.button {
     background-color: #95BBEA;
-    border-color: transparent;
-    text-decoration: none;
-    color: #fffdf9;
-    text-align: center;
-    border-radius: 20%;
-    size: 25%;
+    color: #fffbf2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #5A54E8;
 }
 
 table{
     width: 100%;
-    border: 1px solid #78020E;
+    border: 1px solid #930500;;
 }
 .td{
     width: 33%;
-    border: 1px solid #78020E;
+    border: 1px solid #930500;;
 }
 
 input[type="checkbox"]{
@@ -46,7 +51,7 @@ input[type="checkbox"]{
     accent-color: #95BBEA;
     border-color: transparent;
     text-decoration: none;
-    color: #fffdf9;
+    color: #fff8e7;
     text-align: center;
     border-radius: 20%;
     size: 25%;
