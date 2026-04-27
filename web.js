@@ -10,6 +10,11 @@ createModule().then((Module) => {
     const f2 = document.getElementById("file2").files[0];
     const f3 = document.getElementById("file3").files[0];
 
+    if (!f1 || !f2 || !f3) {
+        alert("Please select all 3 files");
+        return;
+    }
+
     const b1 = new Uint8Array(await f1.arrayBuffer());
     const b2 = new Uint8Array(await f2.arrayBuffer());
     const b3 = new Uint8Array(await f3.arrayBuffer());
@@ -29,5 +34,7 @@ createModule().then((Module) => {
     a.href = url;
     a.download = "output.csv";
     a.click();
+    URL.revokeObjectURL(url);
+    
   };
 });

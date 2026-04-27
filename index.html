@@ -6,11 +6,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap" rel="stylesheet">
 
 </head>
+<body>
 <header>
     <h2 class="title">BGP Simulator</h2>
     <hr size="1" color="#78020E">
 </header>
-<body>
+
     <h1 class="overview">A C++ simulator of the BGP (Border Gateway Protocol) internet routing system.  
                      <br>The program builds an AS graph from CAIDA topology data, seeds announcements, 
                      <br>propagates them through the graph using BGP/ROV policies, and outputs 
@@ -25,20 +26,8 @@
     </table>
     <button class="button" id="run">RUN</button>
 
-    <script>
-    var Module = {
-        onRuntimeInitialized: function () {
-            console.log("WASM READY");
-
-            document.getElementById("run").onclick = async () => {
-                console.log("RUN CLICKED");
-            };
-        }
-    };
-    </script>
-
     <script src="web_program.js"></script>
     <script src="web.js"></script>
-</body>
 
+</body>
 </html>
