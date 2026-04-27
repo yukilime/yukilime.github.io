@@ -25,6 +25,18 @@
     </table>
     <button class="button" id="run">RUN</button>
 
+    <script>
+    var Module = {
+        onRuntimeInitialized: function () {
+            console.log("WASM READY");
+
+            document.getElementById("run").onclick = async () => {
+                console.log("RUN CLICKED");
+            };
+        }
+    };
+    </script>
+
     <script src="web_program.js"></script>
     <script src="web.js"></script>
 </body>
