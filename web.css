@@ -24,6 +24,13 @@ body{
     font-family: 'Sofia Sans', serif;
 }
 
+.chosen_file{
+    color: #930500;
+    text-align: left;
+    font-family: 'Sofia Sans', serif;
+    font-size: 80%;
+}
+
 .choose_btn {
     background-color: #95BBEA;
     color: #fffcf6;
@@ -43,10 +50,10 @@ body{
 .run_btn {
     background-color: #930500;
     color: #fffcf6;
-    font-size: 120%;
+    font-size: 150%;
     font-family: 'Sofia Sans', serif;
     border: none;
-    padding: 10px 20px;
+    padding: 15px 30px;
     margin-top: 15px;
     margin-left: 2px;
     border-radius: 8px;

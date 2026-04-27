@@ -3,7 +3,7 @@ createModule().then((Module) => {
 
   console.log("WASM READY");
 
-  //----------------------FILE NAMES---------------------------
+  //------------------------Назви----------------------------
     document.getElementById("file1").onchange = (e) => {
         document.getElementById("file1-name").textContent =
             e.target.files.length ? e.target.files[0].name : "Not chosen";
@@ -25,11 +25,6 @@ createModule().then((Module) => {
     console.log("RUN CLICKED");
 
     const f1 = document.getElementById("file1").files[0];
-    document.getElementById("file1").onchange = (e) => {
-    console.log("file1 changed", e.target.files);
-    document.getElementById("file1-name").textContent =
-        e.target.files.length ? e.target.files[0].name : "Not chosen";
-};
     const f2 = document.getElementById("file2").files[0];
     const f3 = document.getElementById("file3").files[0];
 
