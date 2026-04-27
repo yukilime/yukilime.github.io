@@ -17,33 +17,40 @@ body{
 }
 
 .overview{
+    margin-top: 20px;
     font-size: 120%;
     color: #930500;
     text-align: left;
     font-family: 'Sofia Sans', serif;
 }
 
-.button {
+.choose_btn {
     background-color: #95BBEA;
     color: #fffcf6;
     border: none;
     padding: 10px 20px;
+    margin-top: 15px;
     border-radius: 8px;
     cursor: pointer;
 }
-
-.button:hover {
+.choose_btn:hover {
     background-color: #7b9cc4;
 }
 
-.table{
-    width: 100%;
-    border: 1px solid #930500;;
+.run_btn {
+    background-color: #930500;
+    color: #fffcf6;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    cursor: pointer;
 }
-.td{
-    width: 33%;
-    border: 1px solid #930500;;
+.run_btn:hover {
+    background-color: #ba221c;
 }
+
+
 
 input[type="checkbox"]{
     appearance: none;

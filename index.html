@@ -19,12 +19,25 @@
 
     <table>
         <tr>
-            <td><input type="file" id="file1" value="CAIDA File"></td>
-            <td><input type="file" id="file2"></td>
-            <td><input type="file" id="file3"></td>
+            <td>
+                <input type="file" id="file1" style="display:none">
+                <button class="choose_btn" onclick="document.getElementById('file1').click()">Choose CAIDA file</button>
+                <span id="file1-name"></span>
+            </td>
+            <td>
+                <input type="file" id="file2" style="display:none">
+                <button class="choose_btn" onclick="document.getElementById('file2').click()">Choose announcement file</button>
+                <span id="file2-name"></span>
+            </td>
+            <td>
+                <input type="file" id="file3" style="display:none">
+                <button class="choose_btn" onclick="document.getElementById('file3').click()">Choose ROV file</button>
+                <span id="file3-name"></span>
+            </td>
         </tr>
     </table>
-    <button class="button" id="run">RUN</button>
+
+    <button class="run_btn" id="run">RUN</button>
 
     <script src="web_program.js"></script>
     <script src="web.js"></script>

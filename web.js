@@ -1,6 +1,24 @@
+//WASM
 createModule().then((Module) => {
 
   console.log("WASM READY");
+
+  //----------------------FILE NAMES---------------------------
+    document.getElementById("file1").onchange = (e) => {
+        document.getElementById("file1-name").textContent =
+            e.target.files.length ? e.target.files[0].name : "Not chosen";
+    };
+
+    document.getElementById("file2").onchange = (e) => {
+        document.getElementById("file2-name").textContent =
+            e.target.files.length ? e.target.files[0].name : "Not chosen";
+    };
+
+    document.getElementById("file3").onchange = (e) => {
+        document.getElementById("file3-name").textContent =
+            e.target.files.length ? e.target.files[0].name : "Not chosen";
+    };
+  //------------------------------------------------------------
 
   document.getElementById("run").onclick = async () => {
 
