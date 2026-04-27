@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BGP Simulator | CSE3150 Course Project</title>
+    <link rel="stylesheet" type="text/css" href="web.css">
+
+</head>
+<header>
+    <h2 class="title">BGP Simulator</h2>
+    <hr size="1" color="#78020E">
+</header>
+<body>
+    <h1 class="overview">A C++ simulator of the BGP (Border Gateway Protocol) internet routing system.  
+                     <br>The program builds an AS graph from CAIDA topology data, seeds announcements, 
+                     <br>propagates them through the graph using BGP/ROV policies, and outputs 
+                     <br>the resulting routing table to CSV.</h1>
+
+    <table>
+        <tr>
+            <td><input type="file" id="file1" value="CAIDA File"></td>
+            <td><input type="file" id="file2"></td>
+            <td><input type="file" id="file3"></td>
+        </tr>
+    </table>
+    <button class="button" id="run">RUN</button>
+
+    <script src="web_program.js"></script>
+    <script src="web.js"></script>
+</body>
+
+</html>

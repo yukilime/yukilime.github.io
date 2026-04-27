@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Font';
+    src: url(font/проєкт.ttf); 
+   }
+
+body{
+    width: 1200px;
+    margin: auto;
+    background-color: #fffdf9;
+}
+
+.title{
+    font-size: 240%;
+    color: #78020E;
+    text-align: left;
+}
+
+.overview{
+    font-size: 120%;
+    color: #78020E;
+    text-align: left;
+}
+
+.button{
+    background-color: #95BBEA;
+    border-color: transparent;
+    text-decoration: none;
+    color: #fffdf9;
+    text-align: center;
+    border-radius: 20%;
+    size: 25%;
+}
+
+table{
+    width: 100%;
+    border: 1px solid #78020E;
+}
+.td{
+    width: 33%;
+    border: 1px solid #78020E;
+}
+
+input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    accent-color: #95BBEA;
+    border-color: transparent;
+    text-decoration: none;
+    color: #fffdf9;
+    text-align: center;
+    border-radius: 20%;
+    size: 25%;
+}
